@@ -5,3 +5,116 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+/* Shared Styles */
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.dark-3 {
+    color: #757575;
+}
+
+.button-primary {
+    background-color: #FD6E0A;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    padding: 18px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-secondary {
+    background-color: white;
+    color: #FD6E0A;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 16px 30px;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+}
+
+/* Header Section Styles Starts */
+
+.header {
+    background-image: url('../assets/images/developer.png'), url('../assets/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* Navbar Section Styles Starts */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Navbar Section Styles Ends */
+
+/* Banner Section Styles Starts */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content {
+    max-width: 580px;
+}
+
+.banner-greetings {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.banner-description {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.banner-profile-picture {
+    width: 580px;
+}
+
+.banner button {
+    margin-right: 8px;
+}
+
+/* Banner Section Styles Ends */
+
+/* Header Section Styles Ends */
