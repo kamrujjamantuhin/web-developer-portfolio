@@ -214,3 +214,36 @@ nav li a {
 }
 
 /* Resume Section Styles Ends */
+
+/* Footer Section Styles Starts */
+
+footer {
+    padding: 120px 200px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer input[type="text"] {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.footer-column input {
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Footer Section Styles Ends */
