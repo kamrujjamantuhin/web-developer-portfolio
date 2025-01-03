@@ -193,3 +193,24 @@ nav li a {
 }
 
 /* Skills Section Styles Ends */
+
+/* Resume Section Styles Starts */
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-container p {
+    font-size: 14px;
+}
+
+.resume .section-title {
+    margin-bottom: 50px;
+}
+
+.button-download-cv{
+    margin-top: 50px;
+}
+
+/* Resume Section Styles Ends */
