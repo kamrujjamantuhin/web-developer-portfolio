@@ -13,6 +13,11 @@ main {
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
 /* Shared Styles */
 
 .background-secondary {
@@ -62,6 +67,10 @@ main {
 
 .section-description {
     font-size: 16px;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* Header Section Styles Starts */
@@ -149,7 +158,6 @@ nav li a {
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
 }
 
 .about-items {
@@ -166,3 +174,22 @@ nav li a {
 }
 
 /* About Section Styles Ends */
+
+/* Skills Section Styles Starts */
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+
+.skills .section-description {
+    margin-bottom: 50px;
+}
+
+/* Skills Section Styles Ends */
