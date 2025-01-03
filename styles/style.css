@@ -6,6 +6,13 @@
     "wdth" 100;
 }
 
+/* Main Styles */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* Shared Styles */
 
 .background-secondary {
@@ -15,6 +22,11 @@
 .text-primary {
     color: #FD6E0A;
 }
+
+.dark-1 {
+    color: #181818;
+}
+
 .dark-2 {
     color: #474747;
 }
@@ -41,6 +53,15 @@
     padding: 16px 30px;
     border: 2px solid #FD6E0A;
     border-radius: 5px;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    font-size: 16px;
 }
 
 /* Header Section Styles Starts */
@@ -121,3 +142,27 @@ nav li a {
 /* Banner Section Styles Ends */
 
 /* Header Section Styles Ends */
+
+/* About Section Styles Starts */
+
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description {
+    font-weight: 600;
+}
+
+.about .section-description {
+    margin-bottom: 50px;
+}
+
+/* About Section Styles Ends */
